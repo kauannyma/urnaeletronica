@@ -76,6 +76,14 @@ Inicio
       escreva ("ainda existe eleitor para a votar? (s) ou (n) ")
       leia (resposta)
        ate (resposta <> "s")
+       
+
+   escreval ("==============BOLETIM DE URNA===============")
+   escreval (numeroCandidato1,"-", nomeCandidato1, ":", contCandidato1)
+   escreval (numeroCandidato2,"-", nomeCandidato2, ":", contCandidato2)
+   escreval (numeroCandidato3,"-", nomeCandidato3, ":", contCandidato3)
+   escreval (" 0 - brancos:", contbranco)
+   escreval(" votos nulos :", contNulo)
 
 
 fimalgoritmo
