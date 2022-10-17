@@ -62,8 +62,20 @@ Inicio
    fimpara
 
    timer (0)
-
+   
    limpatela
+   
+    repita
+       repita
+   
+      escreva (" Deseja confirmar o seu voto ? (s) o (n) ")
+      leia (resposta)
+      
+      ate(resposta="s")
+
+      escreva ("ainda existe eleitor para a votar? (s) ou (n) ")
+      leia (resposta)
+       ate (resposta <> "s")
 
 
 fimalgoritmo
