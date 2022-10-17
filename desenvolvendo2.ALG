@@ -99,6 +99,21 @@ Inicio
       leia (resposta)
       
       ate(resposta="s")
+      
+        escolha voto
+    caso numeroCandidato1
+       contCandidato1 <- contCandidato1 + 1
+       
+    caso numeroCandidato2
+       numeroCandidato2 <-  nomeCandidato2 + 1
+       
+    caso numeroCandidato3
+       numeroCandidato3 <- nomeCandidato3 + 1
+       caso 0
+        contBranco <- contBranco +1
+       outrocaso
+                contNulo <- contNulo +1
+        fimescolha
 
       escreva ("ainda existe eleitor para a votar? (s) ou (n): ")
       leia (resposta)
