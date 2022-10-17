@@ -19,7 +19,7 @@ Var
    contNulo: inteiro
    resposta: caractere
    i: inteiro
-
+   voto: inteiro
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -67,13 +67,25 @@ Inicio
    
     repita
        repita
+       
+       limpatela
+       
+   escreval (numeroCandidato1,"-", nomeCandidato1)
+   escreval (numeroCandidato2,"-", nomeCandidato2)
+   escreval (numeroCandidato3,"-", nomeCandidato3)
+   escreval (" 0 - branco:")
+   escreval(" ")
    
-      escreva (" Deseja confirmar o seu voto ? (s) o (n) ")
+    escreval ("informe o número doo canditado:")
+    leia(voto)
+    escreva ("")
+    
+      escreva (" Deseja confirmar o seu voto ? (s) o (n): ")
       leia (resposta)
       
       ate(resposta="s")
 
-      escreva ("ainda existe eleitor para a votar? (s) ou (n) ")
+      escreva ("ainda existe eleitor para a votar? (s) ou (n): ")
       leia (resposta)
        ate (resposta <> "s")
        
