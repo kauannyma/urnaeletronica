@@ -22,6 +22,12 @@ Var
    voto: inteiro
 
 Inicio
+
+
+
+contCandidato1<- 0
+contCnadidato2<- 0
+contCandidato3<- 0
    // Seção de Comandos, procedimento, funções, operadores, etc...
    escreva ("informe o numero do candidato1:")
    leia (numeroCandidato1)
@@ -110,13 +116,14 @@ Inicio
     caso numeroCandidato3
        numeroCandidato3 <- nomeCandidato3 + 1
        caso 0
-        contBranco <- contBranco +1
-       outrocaso
-                contNulo <- contNulo +1
-        fimescolha
+        contBranco <- contBranco + 1
+    outrocaso
+                contNulo <- contNulo + 1
+    fimescolha
 
       escreva ("ainda existe eleitor para a votar? (s) ou (n): ")
       leia (resposta)
+      
        ate (resposta <> "s")
        
 
